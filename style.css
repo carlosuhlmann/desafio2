@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.container{    
+    margin: auto; 
+}
+
+header{
+    background-color:rgb(212, 207, 207);
+    text-align: center;
+    color: #162B32;
+    padding: 20px;    
+}
+
+.buttons{
+    padding: 50px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(212, 207, 207);
+    color: #162B32;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;   
+    
+    
+}
+
+button:hover{
+    background-color:rgb(175, 170, 170);   
+}
+
+.formContainer{
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px;    
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;    
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(212, 207, 207);    
+}
+
+input[type="submit"]:hover{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;    
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(175, 170, 170);    
+}

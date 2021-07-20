@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Produto</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">CADASTRAR PRODUTO</h1>
+        </header>
+
+        <div class="formContainer">           
+
+            <form>
+                <input type="text" id="productName" name="productName" placeholder="Nome do produto"> <br>
+                <input type="text" id="code" name="code" placeholder="Código do produto"> <br>
+                <input type="number" id="price" step="0.01" name="code" placeholder="Digite o preço: R$ 0.00"> <br>
+                <input type="submit" value="CADASTRAR" onclick="saveNewProduct()">
+
+            </form>
+
+        </div>
+
+        <div class="buttons">
+            <a href="index.html"><button>VOLTAR</button></a>            
+        </div>
+
+        
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+
+</html>
